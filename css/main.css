@@ -1504,9 +1504,9 @@ header .logo a {
 	margin-left: -30px
 }
 .intro-info img {
-	height: 20rem;
+	height: 26rem;
 	width: 20rem;
-	border-radius: 100%;
+	border-radius: 1rem;
 	margin: 0rem 5 0 50;
 	float: left;
 	margin-right: 30px;
@@ -1579,8 +1579,8 @@ header .logo a {
 }
 @media only screen and (max-width:768px) {
 	.intro-info img {
-		height: 7.8rem;
-		width: 7.8rem;
+		height: 27rem;
+		width: 20rem;
 	}
 	.intro-info .lead {
 		padding-left: 11rem;
@@ -1605,8 +1605,8 @@ header .logo a {
 		margin-top: 3rem;
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
+		height: 20.4rem;
+		width: 15rem;
 		float: none;
 		display: inline-block;
 	}
@@ -2483,3 +2483,34 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+.project-image-1 {
+	width: 40rem;
+	/* margin-right: 1rem; */
+	border-radius: 1rem;
+}
+.texto-imagen-proyecto {
+	margin-left: 1rem;
+	margin-bottom: 0;
+}
+
+.project-image-container {
+    display: flex; /* Para colocar los elementos en una fila */
+    align-items: center; /* Alinea la imagen y el texto verticalmente en el centro */
+}
+.frameworks-proyecto {
+	font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+	.project-image-container {
+		flex-direction: column; /* Para colocar los elementos en una columna */
+	}
+	.project-image-1 {
+		margin-right: 0; /* Elimina el margen derecho */
+		margin-bottom: 1rem; /* Añade un margen inferior */
+	}
+}
+
